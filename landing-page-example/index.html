@@ -1,0 +1,172 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Programlama Eğitimleri</title>
+
+    <!--Fonts Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+
+    <!--Fonts Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+    <link rel="stylesheet" href="css/gloabal.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!--Tablet-->
+    <link rel="stylesheet" media="(max-width:780px)" href="css/tablet.css">
+    <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css">
+
+</head>
+<body>
+    <header class="bg-dark-blue">
+
+        <div class="container">
+
+            <nav id="navbar">
+                <h1 class="heading-medium">TRT FM</h1>
+    
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#broadcast">Broadcasts</a></li>
+                    <li><a href="#subscribe">Subscribe </a></li>
+                </ul>
+            </nav>
+
+        </div>
+       
+    </header>
+
+    <section id="home">
+        <img src="images/logo.jpg"  style="width:300px;height: 300px" alt="">
+
+        <div class="name text-center">
+            <p class="heading-small"> TRT FM Uzakları Yakın Eden Radyo...</p>
+        </div>
+
+        <a href="#broadcast" class="btn btn-primary"> Go to Broadcasts</a>
+    </section>
+
+    <section id="broadcasts" class="bg-dark-blue">
+        <h3 class="text-center heading-small">Favorite Broadcasts</h3>
+        <div class="container">
+            <div class="broadcasts">
+                <!--broatcast 1-->
+                <div class="broadcast">
+                    <div class="broadcast-image" >
+                        <img src="images/frekans.jpg" alt="">
+                    </div>
+                    <div class="broadcast-info">
+                        <div class="title">
+                            Frekans
+                        </div>
+                        <div class="description">
+                            TRT FM kanalının Türkiye’nin her noktasına ulaşan sesin içinde yer alan "FREKANS" güncel şarkıları, farklı konuları ve ters köşe sohbetiyle hafta içi her gün 10.00-12.00 saatleri arası TRT FM'de kuşak program yayınlanmaktadır
+                        </div>
+
+                    </div>
+
+                </div>
+                 <!--broatcast 2-->
+                 <div class="broadcast">
+                    <div class="broadcast-image" >
+                        <img src="images/gün bugün.png" alt="">
+                    </div>
+                    <div class="broadcast-info">
+                        <div class="title">
+                            Gün Bugün
+                        </div>
+                        <div class="description">
+                            Eray Ergün'ün hazırladığı, Kerem Demircioğlu'nun sunduğu Gün Bugün, hafta içi her gün, 14.00 - 16.00 arasında TRT FM dinleyicisi ile buluşuyor.
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+                 <!--broatcast 3-->
+                 <div class="broadcast">
+                    <div class="broadcast-image" >
+                        <img src="images/günübirlik.jpg" alt="">
+                    </div>
+                    <div class="broadcast-info">
+                        <div class="title">
+                            Günübirlik
+                        </div>
+                        <div class="description">
+                            Feyza Aktaş Kanarya ve Emine Eroğlu SAĞER ’in hazırladığı “Günübirlik”, hafta içi her gün
+                            12:00’den 14:00’e,Feyza Aktaş KANARYA’nın sunumuyla radyolarınızda.
+
+                        </div>
+
+                    </div>
+
+                </div>
+                 <!--broatcast 4-->
+                 <div class="broadcast">
+                    <div class="broadcast-image" >
+                        <img src="images/seyrüsefer.png" alt="">
+                    </div>
+                    <div class="broadcast-info">
+                        <div class="title">
+                            Seyrüsefer
+                        </div>
+                        <div class="description">
+                            Hafta içi her akşam 22.00-24.00 arası Seyrüsefer programında Ümit Dandul’un sunumuyla müzik yolculuğuna davetlisiniz.
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+                
+
+            </div>
+        </div>
+
+
+    </section>
+
+    <footer id="subscribe">
+
+        <div class="subscribe-form">
+            <form action="">
+                <h4 class="text-center heading-small">Subscribe to the Bulletin</h4>
+
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input class="form-control" type="text" name="name" id="name" placeholder="Name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input class="form-control" type="text" name="email" id="email" placeholder="E-Mail">
+                </div>
+
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+
+            <ul>
+                <li> <a href="#" class="fab fa-facebook"></a>
+
+                </li>
+                <li> <a href="#" class="fab fa-twitter"></a>
+
+                </li>
+                <li> <a href="#" class="fab fa-instagram"></a>
+
+                </li>
+
+            </ul>
+        </div>
+
+    </footer>
+</body>
+</html>

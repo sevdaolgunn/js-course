@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+p{
+
+    color: white;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #171c2b;
+}
+
+/* Navbar Section */
+
+#navbar{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 90px;
+}
+
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul li a {
+    padding: 0.75rem;
+}
+#navbar ul li a:hover{
+    background: #F05D3B;
+    border-radius: 4px;
+}
+
+/* Home Section*/
+
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid #0C101B;
+
+}
+
+#home img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+    margin-bottom: 1rem;
+}
+
+#home .name p{
+    opacity: 0.6;
+
+}
+
+/* Broadcasts */
+
+
+ #broadcasts{
+    color: white;
+    padding: 1rem;
+    
+ }
+ .broadcasts{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-top: 20px;
+ }
+
+ .broadcasts .broadcast{
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+ }
+
+ .broadcasts .broadcast .broadcast-image {
+    margin-right: 30px;
+ }
+ .broadcasts .broadcast .broadcast-image img{
+    border-radius: 10px;
+    width: 400px;
+    height: auto;
+
+ }
+
+ .broadcasts .broadcast .broadcast-info .title{
+    letter-spacing: 2.5px;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+
+ }
+ .broadcasts .broadcast .broadcast-info .description{
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+    opacity: 0.6;
+
+ }
+
+ /* Subscribe */
+
+ #subscribe{
+    color: white;
+    padding: 1rem;
+
+ }
+
+ #subscribe .subscribe-form{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+ }
+
+
+#subscribe .subscribe-form button{
+    color:white;
+    border: none;
+    font-size: medium;
+    margin: 10px 53px;
+
+}
+ #subscribe .subscribe-form ul{
+    list-style-type: none;
+    display: flex;
+    margin-top:  1rem;
+    align-self: center;
+ }
+
+ #subscribe .subscribe-form ul li a{
+    padding: 1rem;
+    font-size: 2rem;
+
+ }
+ #subscribe .subscribe-form ul li a:hover{
+    opacity: 0.9;
+ }
+
+

@@ -1,0 +1,13 @@
+
+
+#navbar {
+    flex-direction: column;
+    padding-top: 0.75em;
+    padding-bottom: 1rem;
+    overflow: hidden;
+    height: 100px;
+}
+
+.broadcasts .broadcast{
+    flex-direction: column;
+}
